@@ -22,7 +22,9 @@ class Generator extends React.Component {
 
   handleAddQuote = () => {
     this.setState({
-      list: [...this.state.list, this.state.text] })
+      list: [...this.state.list, this.state.text],
+      text: "", });
+    alert("Wróżba została dodana");
   }
 
   render() {
