@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    margin: 20px auto;
+    background-color: rgba(113, 216, 113, 0.9);
+    color: white;
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(49, 219, 49, 0.9);
+    border: none;
+    padding: 7px;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+}
+
+input {
+    padding: 8px;
+    box-sizing: border-box;
+    width: 300px;
+}
